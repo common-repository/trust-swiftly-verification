@@ -1,0 +1,2 @@
+# TrustSwiftly Verification
+TrustSwiftly Verification Plugin

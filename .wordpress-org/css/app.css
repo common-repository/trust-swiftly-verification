@@ -1,0 +1,22 @@
+.ts-verification-status {
+    display: flex;
+    flex-direction: row;
+}
+
+.ts-verification-status img {
+    width: 20px;
+    margin-right: 5px;
+}
+
+.ts-verify-link {
+    display: block;
+    margin: 10px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 250px;
+    height: 39px;
+}
+.ts-loader{
+    display: block;    
+}

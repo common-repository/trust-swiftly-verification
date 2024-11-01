@@ -1,0 +1,125 @@
+.ts-settings-feedback {
+    display: flex;
+    align-items: center;
+    /* padding: 20px; */
+    /* background-color: #ccc; */
+}
+
+.ts-settings-feedback img {
+    width: 25px;
+    margin-right: 10px;
+}
+
+.ts-input-group {
+    display: flex;
+    align-items: center;
+}
+
+.ts-input-group > :first-child {
+    margin-right: 10px;
+}
+
+.ts-input-group-addon {
+    display: flex;
+    align-items: stretch;
+}
+
+.ts-input-addon {
+    padding: 3px 8px;
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+    margin-right: -2px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: 1px solid #8c8f94;
+}
+
+.ts-input-addon + input {
+    border-left: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.ts-settings-wrap {
+    max-width: 800px;
+}
+
+.ts-settings-wrap input[type="text"],
+.ts-settings-wrap input[type="password"],
+.ts-settings-wrap input[type="url"],
+.ts-settings-wrap input[type="email"],
+.ts-settings-wrap select,
+.ts-settings-wrap textarea {
+    width: 100%;
+}
+
+.select-img .select2-selection__rendered {
+    line-height: 44px !important;
+}
+.select-img .select2-container .select2-selection--single {
+    height: 44px !important;
+}
+.select-img .select2-selection__arrow {
+    height: 44px !important;
+}
+.ts-switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.ts-switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.ts-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.ts-slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .ts-slider {
+    background-color: #2196F3;
+}
+
+input:focus + .ts-slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .ts-slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.ts-slider.ts-round {
+    border-radius: 34px;
+}
+
+.ts-slider.ts-round:before {
+    border-radius: 50%;
+}
+

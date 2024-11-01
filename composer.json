@@ -1,0 +1,6 @@
+{
+    "require": {
+        "guzzlehttp/guzzle": "^5.3.3|^6.2.1|^7.0",
+        "trustswiftly/trustswiftly-php-sdk": "^1.0"
+    }
+}
